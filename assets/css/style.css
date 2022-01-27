@@ -906,8 +906,8 @@ button:focus {
 ============================*/
 
 .bg-client {
-    position: relative;
-    background-image: url(assets/images/bg-wide.jpg);
+    position: relative; 
+    background-image: url(/assets/images/bg-wide.jpg);
     background-size: cover;
     background-position: center center;
 }

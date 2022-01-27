@@ -147,8 +147,7 @@ button:focus {
     text-align: center;
     position: fixed;
     bottom: 15px;
-    height: 35px;
-    width: 35px;
+    padding: 5px;
     background-color: #000;
     display: none;
     z-index: 10000;
@@ -157,11 +156,9 @@ button:focus {
     transition: all 0.5s;
 }
 
-.back_top i {
+.back_top svg {
     color: #fff;
-    line-height: 35px;
-    font-size: 12px;
-    display: block;
+    font-size: 20px;
 }
 
 /*==========================
@@ -230,7 +227,6 @@ button:focus {
 .main-title-border::after,
 .main-title-border::before {
     display: inline-block;
-    margin-top: -7px;
     vertical-align: middle;
     content: "";
     background-color: #d0d0d0;
@@ -238,7 +234,7 @@ button:focus {
     height: 1px;
 }
 
-.main-title-border i {
+.main-title-border svg {
     font-size: 20px;
 }
 
@@ -491,7 +487,7 @@ button:focus {
     z-index: 8;
 }
 
-.scroll_down i {
+.scroll_down svg {
     position: relative;
     -webkit-animation: bounce 2s infinite;
     animation: bounce 2s infinite;
@@ -503,6 +499,7 @@ button:focus {
     display: inline-block;
     color: #fff;
     font-size: 12px;
+    fill: #fff;
 }
 
 .scroll_down i:after {
@@ -615,7 +612,7 @@ button:focus {
     border: 1px dotted #e7e7e7;
 }
 
-.lan_box_ser .ser_icon i {
+.lan_box_ser .ser_icon svg {
     font-size: 42px;
 }
 
@@ -1073,13 +1070,9 @@ button:focus {
 ============================*/
 
 .fot_social .social-icon {
-    border: 2px solid #868e96;
-    border-radius: 50%;
     transition: all 0.5s;
-    width: 42px;
-    height: 42px;
     display: block;
-    font-size: 18px;
+    font-size: 25px;
     line-height: 38px;
     text-align: center;
 }

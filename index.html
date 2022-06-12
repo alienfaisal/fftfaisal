@@ -827,7 +827,9 @@
                 </div>
                 <div class="col-lg-8">
                     <div class="contact_form">
-                        <form action="https://faisal.com.bd/" method="POST">
+                        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+                        <div class="elfsight-app-95da4fe1-98f7-4ed3-ba6f-ac97c65cc312"></div>
+                        <!-- <form action="https://faisal.com.bd/" method="POST">
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="form-group mt-2">
@@ -868,7 +870,7 @@
                                 </div>
                             </div>
                             <input type="hidden" name="action" value="faisal-contact" />
-                        </form>
+                        </form> -->
                     </div>
                 </div>
             </div>
@@ -959,6 +961,13 @@
             });
         });
     </script>
+    <script type="application/javascript">
+        function getIP(json) {
+            document.write("My public IP address is: ", json.ip);
+        }
+    </script>
+    
+    <script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
 </body>
 
 </html>

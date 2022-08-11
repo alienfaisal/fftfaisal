@@ -609,9 +609,17 @@ button:focus {
 ============================*/
 
 .lan_box_ser {
-    border: 1px dotted #e7e7e7;
+    border: 2px dashed #000;
+    transition: all 0.5s ease-in-out;
 }
-
+.lan_box_ser:hover {
+    background-color: #fff;
+    color: #000;
+    border-color: #000;
+}
+.lan_box_ser:hover *,.lan_box_ser:hover p {
+    color: #000 !important;
+}
 .lan_box_ser .ser_icon svg {
     font-size: 42px;
 }
